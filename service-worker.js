@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/maternity-landscape/precache-manifest.134e9cf5cfc7043cdac3e5a8f7785638.js"
+  "/maternity-landscape/precache-manifest.0cf77fd8ca8120d16efc5b6872d5d0c5.js"
 );
 
 self.addEventListener('message', (event) => {
