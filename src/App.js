@@ -161,29 +161,12 @@ ProductTable (props) {
   console.log(this.state)
   return (
     <>
+      <div id="ProjectInfo">
+        <div id="ProjectTitle">Mapping the Emotional Landscape of Maternity: An Interactive Data Visualization</div>
+      </div>
 
-          <div id="sticky-div">
-          <div id="legend">
-{/* <div style={{verticalAlign: 'middle'}}>
-  <strong>my_gradient</strong> 
-</div> */}
-
-
-{/* <div style={{verticalAlign: "middle", maxWidth: "514px", display: "flex", justifyContent: "space-between"}}>
-    <div style= {{float: 'left'}}>
-      <div title="#d5e7f7ff" style={{display: 'inline-block', width: '1em', height: '1em', margin: '0', verticalAlign: 'middle', border: '1px solid #555', backgroundColor: '#d5e7f7ff'}}>
-      </div> under
-  </div>
-  <div style={{margin: '0 auto', display: 'inline-block'}}>bad 
-    <div title="#00000000" style={{display: 'inline-block', width: '1em', height: '1em', margin: '0', verticalAlign: 'middle', border: '1px solid #555', backgroundColor: '#00000000'}}>
-    </div>
-  </div>
-  <div style={{float: 'right'}}>over 
-    <div title="#ce472fff" style={{display: 'inline-block', width: '1em', height: '1em', margin: '0', verticalAlign: 'middle', border: '1px solid #555', backgroundColor: '#ce472fff'}}>
-    </div>
-  </div>        
-</div>    */}
-
+      <div id="sticky-div">
+      <div id="legend">
         <div id ='sorted'>
               Topics Sorted by <span style={{color:'lightsalmon'}}>{this.state.sortEmotion } ({this.state.sortDirection})</span> 
             </div>

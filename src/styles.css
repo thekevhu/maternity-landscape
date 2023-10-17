@@ -395,6 +395,38 @@ a:hover {
   font-weight: bold;
   /* margin-left:800px; */
 }
+#ProjectInfo{
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  color:rgb(243, 243, 243)!important;
+  font-weight: bold;
+  /* width: 862px; */
+
+}
+
+#ProjectTitle{
+
+  color:rgb(243, 243, 243)!important;
+  font-size: 10px;
+  font-weight: bold;
+  margin:10px;
+  /* width:300px; */
+}
+
+
+#ProjectInfo{
+
+  color:rgb(243, 243, 243)!important;
+  font-size: 6px;
+  /* width:300px; */
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #sorted{
   color:white !important;
